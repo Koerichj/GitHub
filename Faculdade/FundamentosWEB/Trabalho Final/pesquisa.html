@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralHub_</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="form.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body onload="DarkMode()">
+    <script src="script.js"></script>
+
+    <header>
+        <h1 class = "title">>NeuralHub_</h1>
+        
+        <div class = 'Hamburger' onclick= "openMenu()"><img src="img/menu.png" alt="openMenu"></div>
+        <div class = 'Hamburger' onclick="DarkMode()">
+            <img id="darkIcon" src="img/dark.png" alt="Dark Icon" onclick="DarkMode(true)">
+        </div>
+    </header>    
+    <nav id = "navBar">
+        <a href = "index.html"><h3 class='NavItem'>>Home_</h3></a>
+        <a href = "intro.html"><h3 class='NavItem'>>Introducao_</h3></a>
+        <a href = "exemplos.html"><h3 class='NavItem'>>Exemplos_</h3></a>
+        <a href = "galeria.html"><h3 class='NavItem'>>Galeria_</h3></a>
+        <a href = "pesquisa.html"><h3 class='NavItem'>>Pesquisa_</h3></a>
+    </nav>
+
+
+    <section id ="cabecalho">
+        <h2>Mantenha-se Sempre Atualizado!</h2>
+        <p>Inscreva-se em nossa pagina e mantenha-se atualizado com as últimas notícias e informações sobre programação e funcionamento de redes neurais. Esteja sempre um passo à frente! Receba dicas, tutoriais, e notícias diretamente em sua caixa de entrada. Não perca as atualizações que preparamos especialmente para você!</p>
+    </section>
+    
+    <div id="form">
+        <form  method="post" action="https://formsubmit.co/contato@k5engenhariaeletrica.com.br">
+            <fieldset class="grupo">
+                <div class="campo"><label for="nome"><strong>Nome: </strong></label><input type="text" name="nome" id="nome" size="15" maxlength="30" placeholder="Nome" required></div>
+                
+                <div class="campo"><label for="sobrenome"><strong>Sobrenome: </strong></label><input type="text" name="sobrenome" id="sobrenome" size="15" maxlength="30" placeholder="Sobrenome" required></div>
+            </fieldset>
+            
+            <div class="campo">
+                <label for="email"><strong>E-mail: </strong></label><input type="email" name="email" id="email" size="15" maxlength="30" required>
+            </div>
+                
+            <div class="campo">
+                <label for="telefone"><strong>Telefone: </strong></label><input type="text" name="telefone" id="telefone" size="15" maxlength="15" placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <div class="campo">
+                <label for="masc"><strong>Sexo: </strong></label>
+
+                <label for="masc"><input type="radio" name="sexo" id="masc">
+                Masculino</label> 
+
+                <label for="fem"><input type="radio" name="sexo" id="fem">
+                Feminino</label>
+            </div>
+            <div class="campo">
+                <label for="mensagem"><strong>Mensagem: </strong></label>
+                <textarea name="mensagem" id="mensagem" cols="45" rows="10"></textarea>
+            </div>
+            <div id="buttonContainer">
+                <button type="submit" class="button">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <footer id = "SaibaMais">
+        <h2 id="contatos">Contatos</h2>
+        <address>Jean Koerich (<a href="jean.koerich@unidavi.edu.br" target="_blank">jean.koerich@unidavi.edu.br</a>) | BSN T27</address>
+        <address>Kalyo A. Silva (<a href="kalyo.silva@unidavi.edu.br" target="_blank">kalyo.silva@unidavi.edu.br </a>) | BSN T27</address>
+        <address>Marcus Demarchi (<a href="marcus.demarchi@unidavi.edu.br" target="_blank">marcus.demarchi@unidavi.edu.br </a>) | BSN T27</address>
+    </footer>
+</body> 
+</html>
