@@ -1,6 +1,0 @@
-Pesquisas
-
-	Sequenciais	|	Binarias
-
-- Qualquer vetor		- vetor deve estar ordenado
-- n/2 comparações		- log² n
