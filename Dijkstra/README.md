@@ -1,4 +1,4 @@
-# GitHub
+# Dijkstra
  
 Atividade de Implementação do Método de Dijkstra
 
