@@ -34,6 +34,9 @@
 *   - Lista de Arestas
 *   - Estrutura de Adjacência
 */
+
+package Dijkstra;
+
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.Collections;
