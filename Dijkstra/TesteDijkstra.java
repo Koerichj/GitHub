@@ -1,5 +1,4 @@
 package Dijkstra;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -33,32 +32,32 @@ public class TesteDijkstra {
     public static void main(String[] args) {
         AlgoritmoDijkstra dijkstra = new AlgoritmoDijkstra(20);
 
-        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("LON"), 25.0); // Aresta A
-        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("AGR"), 31.0); // Aresta B
-        dijkstra.criarAresta(cidades.get("AGR"), cidades.get("TCO"), 23.0); // Aresta C
-        dijkstra.criarAresta(cidades.get("TCO"), cidades.get("BTO"), 54.0); // Aresta D
-        dijkstra.criarAresta(cidades.get("BTO"), cidades.get("PDR"), 38.0); // Aresta E
-        dijkstra.criarAresta(cidades.get("TCO"), cidades.get("PDR"), 43.0); // Aresta F
-        dijkstra.criarAresta(cidades.get("AGR"), cidades.get("PDR"), 71.0); // Aresta G
-        dijkstra.criarAresta(cidades.get("PDR"), cidades.get("MDC"), 37.0); // Aresta H
-        dijkstra.criarAresta(cidades.get("PDR"), cidades.get("TAI"), 38.0); // Aresta I
-        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("LAU"), 39.0); // Aresta J
-        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("PGT"), 121.0); // Aresta K
+        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("LON"), 25.6); // Aresta A
+        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("AGR"), 31.2); // Aresta B
+        dijkstra.criarAresta(cidades.get("AGR"), cidades.get("TCO"), 23.6); // Aresta C
+        dijkstra.criarAresta(cidades.get("TCO"), cidades.get("BTO"), 43.2.); // Aresta D
+        dijkstra.criarAresta(cidades.get("BTO"), cidades.get("PDR"), 38.28); // Aresta E
+        dijkstra.criarAresta(cidades.get("TCO"), cidades.get("PDR"), 54.9); // Aresta F
+        dijkstra.criarAresta(cidades.get("AGR"), cidades.get("PDR"), 71.94); // Aresta G
+        dijkstra.criarAresta(cidades.get("PDR"), cidades.get("MDC"), 37.4); // Aresta H
+        dijkstra.criarAresta(cidades.get("PDR"), cidades.get("TAI"), 38.8); // Aresta I
+        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("LAU"), 39.9); // Aresta J
+        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("PGT"), 121.88); // Aresta K
         dijkstra.criarAresta(cidades.get("LON"), cidades.get("IBR"), 35.0); // Aresta L
-        dijkstra.criarAresta(cidades.get("IBR"), cidades.get("PGT"), 25.0); // Aresta M
-        dijkstra.criarAresta(cidades.get("PGT"), cidades.get("DEM"), 33.0); // Aresta N
-        dijkstra.criarAresta(cidades.get("PGT"), cidades.get("JBT"), 32.0); // Aresta O
+        dijkstra.criarAresta(cidades.get("IBR"), cidades.get("PGT"), 25.2); // Aresta M
+        dijkstra.criarAresta(cidades.get("PGT"), cidades.get("DEM"), 33.4); // Aresta N
+        dijkstra.criarAresta(cidades.get("PGT"), cidades.get("JBT"), 32.4); // Aresta O
         dijkstra.criarAresta(cidades.get("RSL"), cidades.get("AUR"), 28.0); // Aresta P
-        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("TCO"), 79.0); // Aresta Q
-        dijkstra.criarAresta(cidades.get("TCO"), cidades.get("AGD"), 14.0); // Aresta R
-        dijkstra.criarAresta(cidades.get("AGD"), cidades.get("ATL"), 12.0); // Aresta S
-        dijkstra.criarAresta(cidades.get("ATL"), cidades.get("ITU"), 43.0); // Aresta T
-        dijkstra.criarAresta(cidades.get("AUR"), cidades.get("ITU"), 39.0); // Aresta U
-        dijkstra.criarAresta(cidades.get("ITU"), cidades.get("IMB"), 76.0); // Aresta V
-        dijkstra.criarAresta(cidades.get("ITU"), cidades.get("VRA"), 63.0); // Aresta W
-        dijkstra.criarAresta(cidades.get("VRA"), cidades.get("IMB"), 39.0); // Aresta X
+        dijkstra.criarAresta(cidades.get("RSL"), cidades.get("TCO"), 79.64); // Aresta Q
+        dijkstra.criarAresta(cidades.get("TCO"), cidades.get("AGD"), 14.1); // Aresta R
+        dijkstra.criarAresta(cidades.get("AGD"), cidades.get("ATL"), 12.2); // Aresta S
+        dijkstra.criarAresta(cidades.get("ATL"), cidades.get("ITU"), 43.6); // Aresta T
+        dijkstra.criarAresta(cidades.get("AUR"), cidades.get("ITU"), 39.9); // Aresta U
+        dijkstra.criarAresta(cidades.get("ITU"), cidades.get("IMB"), 76.5); // Aresta V
+        dijkstra.criarAresta(cidades.get("ITU"), cidades.get("VRA"), 63.2); // Aresta W
+        dijkstra.criarAresta(cidades.get("VRA"), cidades.get("IMB"), 39.6); // Aresta X
         dijkstra.criarAresta(cidades.get("VRA"), cidades.get("PNR"), 42.0); // Aresta Y
-        dijkstra.criarAresta(cidades.get("LON"), cidades.get("PNR"), 87.0); // Aresta Z
+        dijkstra.criarAresta(cidades.get("LON"), cidades.get("PNR"), 87.9); // Aresta Z
 
     Scanner in = new Scanner(System.in);
         System.out.println("Grafo do Alto Vale");
