@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralHub_</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="content.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body onload="DarkMode()">
+    <script src="script.js"></script>
+
+    <header>
+        <h1 class = "title">>NeuralHub_</h1>
+        
+        <div class="Hamburger" onclick="openMenu()"><img src="img/menu.png" alt="openMenu"></div>
+        <div class = 'Hamburger' onclick="DarkMode()">
+            <img id="darkIcon" src="img/dark.png" alt="Dark Icon" onclick="DarkMode(true)">
+        </div>
+    </header>    
+    <nav id = "navBar">
+        <a href = "index.html"><h3 class='NavItem'>>Home_</h3></a>
+        <a href = "intro.html"><h3 class='NavItem'>>Introducao_</h3></a>
+        <a href = "exemplos.html"><h3 class='NavItem'>>Exemplos_</h3></a>
+        <a href = "galeria.html"><h3 class='NavItem'>>Galeria_</h3></a>
+        <a href = "pesquisa.html"><h3 class='NavItem'>>Pesquisa_</h3></a>
+    </nav>
+    
+    <section class = "video">
+        <h2 class = "title">Veja o vídeo abaixo para uma Introducão...</h2>
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/s-Ue8SdQy3I?si=NcGQg3cuE0-Sc8OE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section class = "video">
+        <h2 class = "title">Ou veja uma aplicação divertida para redes neurais!</h2>
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/r428O_CMcpI?si=0ZoVYfvjct8H3tYN" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    
+    <footer id = "SaibaMais">
+        <h2 id="contatos">Contatos</h2>
+        <address>Jean Koerich (<a href="jean.koerich@unidavi.edu.br" target="_blank">jean.koerich@unidavi.edu.br</a>) | BSN T27</address>
+        <address>Kalyo A. Silva (<a href="kalyo.silva@unidavi.edu.br" target="_blank">kalyo.silva@unidavi.edu.br </a>) | BSN T27</address>
+        <address>Marcus Demarchi (<a href="marcus.demarchi@unidavi.edu.br" target="_blank">marcus.demarchi@unidavi.edu.br </a>) | BSN T27</address>
+    </footer>
+</body> 
+</html>
