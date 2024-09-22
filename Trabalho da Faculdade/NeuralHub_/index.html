@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralHub_</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="layout.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body onload="DarkMode()">
+    <script src="script.js"></script>
+
+    <header>
+        <h1 class = "title">>NeuralHub_</h1>
+        
+        <div class = 'Hamburger' onclick="openMenu()"><img src="img/menu.png" alt="openMenu"></div>
+        <div class = 'Hamburger' onclick="DarkMode()">
+            <img id="darkIcon" src="img/dark.png" alt="Dark Icon" onclick="DarkMode(true)">
+        </div>
+    </header>    
+    <nav id = "navBar">
+        <a href = "index.html"><h3 class='NavItem'>>Home_</h3></a>
+        <a href = "intro.html"><h3 class='NavItem'>>Introducao_</h3></a>
+        <a href = "exemplos.html"><h3 class='NavItem'>>Exemplos_</h3></a>
+        <a href = "galeria.html"><h3 class='NavItem'>>Galeria_</h3></a>
+        <a href = "pesquisa.html"><h3 class='NavItem'>>Pesquisa_</h3></a>
+    </nav>
+
+    <section id ="MainBanner">
+        <h2>Hey Dev!</h2>
+        <h4>Pronto para decolar?</h4>
+
+        <div class="Detail_Main">
+            <div class="Detail" style="width: 180px; height: 180px;">
+                <div class="Detail" style="height: 160px; width: 160px; background: var(--DarkSect);">
+                    <div class="Detail" style="width: 140px; height: 140px; background: var(--Background);">
+                        <div class="Detail" style="width: 120px; height: 120px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <article id = "LowerBanner">
+        <h3 class = 'Button'><a href="galeria.html">Galeria</a></h3>
+        
+        <h3 class = 'Button'><a href="exemplos.html">Tutoriais</a></h3>
+    </article>
+
+    <article id = "SaibaMaisArtigo">
+        <h2>Conheça as Redes Neurais!</h2>
+
+        <p>Com os Nossos Tutoriais, Vídeos e Conteúdos, você pode dar um <em>Start</em> no seu conhecimento sobre Redes Neurais!</p>
+
+        <p>Você encontrará conteudos relacionados a Algoritmos, Lógica, Linguagens e funcionamento de inteligencias artificiais utilizando redes neurais. Então, ta esperando o que?</p>
+
+        <h3 class="Button"><a href="intro.html">Começar!</a></h3>
+    </article>
+
+    <footer id = "SaibaMais">
+        <h2 id="contatos">Contatos</h2>
+        <address>Jean Koerich (<a href="jean.koerich@unidavi.edu.br" target="_blank">jean.koerich@unidavi.edu.br</a>) | BSN T27</address>
+        <address>Kalyo A. Silva (<a href="kalyo.silva@unidavi.edu.br" target="_blank">kalyo.silva@unidavi.edu.br </a>) | BSN T27</address>
+        <address>Marcus Demarchi (<a href="marcus.demarchi@unidavi.edu.br" target="_blank">marcus.demarchi@unidavi.edu.br </a>) | BSN T27</address>
+    </footer>
+</body> 
+</html>
