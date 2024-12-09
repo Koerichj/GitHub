@@ -11,7 +11,7 @@ body{
 }
 
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png)top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -24,7 +24,7 @@ body{
     min-height: 250px;
 }
 
-#area-logo{
+#area_logo{
     position: absolute;
     background: url(../imagens/topo-imagem-principal.png) no-repeat;
     width: 100%;
@@ -45,7 +45,7 @@ body{
     text-indent: -9000px;
 }
 
-#area-menu{
+#area_menu{
     position: absolute;
     background: url(../imagens/topo-imagem-lateral.png) no-repeat;
     width: 450px;
@@ -55,13 +55,13 @@ body{
     z-index: 2;
 }
 
-#conteudo-menu{
+#conteudo_menu{
     margin-left: 90px;
     margin-right: 15px;
     padding-top: 15px;
 }
 
-#menu-locais{
+#menu_locais{
     border-bottom: 1px solid #b5ab56;
     border-top: 1px solid #b5ab56;
     padding-top: 5px;
@@ -70,7 +70,7 @@ body{
     color: #8b8448;
 }
 
-#menu-locais .locais{
+#menu_locais .locais{
     float: left;
     line-height: 2.1em;
 }
@@ -117,4 +117,28 @@ ul#navegacao a:hover{
     width: 225px;
     height: 164px;
     float: right;
+} 
+
+/*Area de conteúdos*/
+#area_principal{
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+#area_lateral{
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape{
+    clear: both;
 } 
